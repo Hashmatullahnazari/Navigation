@@ -1,0 +1,77 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav
+{
+    background: #ff8c66;
+    width: 100%;
+}
+
+Ul
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  
+}
+
+ul li 
+{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+ul li:hover
+{
+    background: #FF6666;
+}
+
+ul li a
+{
+    color: #FFFFFF;
+}
+
+.toggle
+{
+    width: 100%;
+    padding: 10px 20px;
+    background: #ff8c66;
+    text-align: right;
+    box-sizing: border-box;
+    color: black;
+    font-size: 30px;
+    display: none;
+    
+}
+
+@media (max-width:768px)
+{
+    .toggle
+    {
+     display: block;
+        
+    }
+    
+    ul 
+    {
+        width: 100%;
+        display: none;
+    }
+    
+    ul li
+    {
+        display: block;
+        text-align: center;
+    }
+    
+    .active
+    {
+        display: block;
+    }
+}
